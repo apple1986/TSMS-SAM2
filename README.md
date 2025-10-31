@@ -82,12 +82,7 @@ conda create -n tsms-sam2 python=3.10 -y
 conda activate tsms-sam2
 ```
 
-### 3️⃣ Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 4️⃣ Install and set up SAM2 backbone  
+### 3️⃣ Install and set up SAM2 backbone  
 Follow the [official SAM2 installation guide](https://github.com/facebookresearch/sam2)  
 and place pretrained SAM2 weights in the `checkpoints/` directory.
 
