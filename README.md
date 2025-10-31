@@ -160,7 +160,9 @@ If you use **TSMS-SAM2** in your research, please cite:
 
 ## 🙏 Acknowledgements
 This work builds upon the **Segment Anything Model 2 (SAM2)** from Meta AI and leverages insights from the **EndoVis surgical video datasets**.  
-We thank the open-source community for their contributions to video segmentation research.
+We thank the open-source community for their contributions to video segmentation research. 
+- Surgical SAM 2: Real-time Segment Anything in Surgical Video by Efficient Frame Pruning
+- https://github.com/jinlab-imvr/Surgical-SAM-2
 
 ---
 
