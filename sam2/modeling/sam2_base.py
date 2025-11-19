@@ -103,7 +103,10 @@ def prune_memory_features_time_split(maskmem_features, maskmem_pos_enc, total_pr
         delete_indices = sorted_indices[:prune_frame_num]
 
         # Convert to original index in maskmem_features
-        global_indices = [base_offset + 1 + i.item() for i in delete_indices]  # +1 to skip first frame
+        if base_offset == 0:
+            global_indices = [base_offset + 1 + i.item() for i in delete_indices]  # +1 to skip first frame
+        else:
+            global_indices = [base_offset + i.item() for i in delete_indices]  # the init is the middle_idx
         return global_indices
 
     delete_indices_first = prune_segment(first_half, pos_enc_first_half, first_feature, base_offset=0)

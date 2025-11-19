@@ -186,8 +186,8 @@ trainer:
     multimask_min_pt_num: 0
     multimask_max_pt_num: 1
     use_mlp_for_obj_ptr_proj: true
-    use_mem_split: true # ap: split memory into two parts, one for the short-term frame and one for the long-term frames
     use_prune: true # ap: prune the memory by cosine similarity
+    use_mem_split: true # ap: split memory into two parts, one for the short-term frame and one for the long-term frames
     prune_sim: cosine_sp # ap: cosine similarity
     # Compilation flag
     # compile_image_encoder: False
