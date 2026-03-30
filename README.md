@@ -177,7 +177,7 @@ If you find this project helpful:
 ---
 
 ### 📬 Contact
-For questions or collaboration opportunities, please reach out via the [GitHub Issues](https://github.com/apple1986/TSMS-SAM2/issues) page or email the corresponding author listed in the [paper](https://arxiv.org/abs/2508.05829).
+For questions or collaboration opportunities, please reach out via the [GitHub Issues](https://github.com/apple1986/TSMS-SAM2/issues) page or email the corresponding author listed in the [paper] (https://iopscience.iop.org/article/10.1088/3049-477X/ae291a/meta) or (https://arxiv.org/abs/2508.05829).
 
 ---
 
@@ -185,3 +185,7 @@ For questions or collaboration opportunities, please reach out via the [GitHub I
   <b>TSMS-SAM2 — Enhancing SAM2 for Temporal Understanding in Surgical Video Segmentation</b><br>
   <em>Developed by Guoping Xu, Hua-Chieh Shao, and You Zhang (2025)</em>
 </p>
+
+## Citation
+Please cite it if it helps your project:
+Xu, Guoping, Hua-Chieh Shao, and You Zhang. "TSMS-SAM2: multi-scale temporal sampling augmentation and memory-splitting pruning for promptable video object segmentation and tracking in surgical scenarios." Machine Learning: Health 2.1 (2026): 015003.
